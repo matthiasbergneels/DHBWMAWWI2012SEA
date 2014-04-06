@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vorlesung"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.vorlesung.StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.vorlesung.NavigationActivity"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+        <activity
+            android:name="com.example.vorlesung.QuestionActivity"
+            android:label="@string/title_activity_question"
+            android:parentActivityName="com.example.vorlesung.StartActivity" >
+        </activity>
+        <activity
+            android:name="com.example.vorlesung.BroadcastActivity"
+            android:label="@string/title_activity_broadcast">
+        </activity>
+        <activity
+            android:name="com.example.vorlesung.LayoutBspActivity"
+            android:label="@string/title_activity_layout_bsp">
+        </activity>
+        <activity android:name="LayoutExample" android:parentActivityName="com.example.vorlesung.StartActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.example.vorlesung.StartActivity"/>
+        </activity>
+    </application>
+
+</manifest>

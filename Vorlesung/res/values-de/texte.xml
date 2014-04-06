@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Vorlesung</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="hello_world">Hallo Walter!</string>
+    <string name="title_activity_start">Startaktivität</string>
+    <string name="title_activity_navigation">Navigationsaktivität</string>
+    <string name="title_activity_question">Frageaktivität</string>
+    <string name="example">Beispiele</string>
+    <string name="navigation">Beispiel für Navigation</string>
+    <string name="title_activity_broadcast">Broadcastaktivität</string>
+    <string name="layout_examples">Layoutbeispiele</string>
+    <string name="broadcast_example">Broadcastbeispiel</string>
+    <string name="title_activity_layout_bsp">Beispielaktivität für Layouts</string>
+    <string name="headline_layouts">Layoutbeispiele</string>
+    <string name="text_example">Blublu</string>
+    <string name="ed_hint_answer">Beantworte die Frage</string>
+    <string name="btn_answer">antworten</string>
+    <string name="lbl_question">Stelle eine Frage</string>
+    <string name="btn_send_broadcast">Broadcast verschicken</string>
+
+    
+</resources>
